@@ -30,21 +30,27 @@
     <!-- Message feed -->
     <center>
         <SplitPane orientation="VERTICAL" dividerPositions="0.6" VBox.vgrow="ALWAYS">
-            <padding>
-                <Insets top="5" right="10" bottom="5" left="10"/>
-            </padding>
             <items>
                 <VBox spacing="5">
+                    <padding>
+                        <Insets top="5" right="10" bottom="5" left="10"/>
+                    </padding>
                     <Label text="SERIAL"/>
                     <TextArea fx:id="serialOutputArea" editable="false" VBox.vgrow="ALWAYS"/>
                 </VBox>
                 <SplitPane orientation="HORIZONTAL" dividerPositions="0.5" VBox.vgrow="ALWAYS">
                     <items>
                         <VBox spacing="5">
+                            <padding>
+                                <Insets top="5" right="10" bottom="5" left="10"/>
+                            </padding>
                             <Label text="LOGS"/>
                             <TextArea fx:id="logsArea" editable="false" VBox.vgrow="ALWAYS"/>
                         </VBox>
                         <VBox spacing="5">
+                            <padding>
+                              <Insets top="5" right="10" bottom="5" left="10"/>
+                            </padding>
                             <Label text="SENT"/>
                             <TextArea fx:id="serialInputArea" editable="false" VBox.vgrow="ALWAYS"/>
                         </VBox>
